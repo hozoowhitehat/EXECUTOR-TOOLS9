@@ -927,7 +927,11 @@ fi
 
 if [ "$updt" -eq 16 ]; then
     # Add your code here for option 16
-    pkg update
+    pkg update -y
+           clear
+    termux-setup-storage -y
+    clear
+    xdg-open "https://www.tiktok.com/@executorhozoo/video/7491246498143833399?is_from_webapp=1&sender_device=pc&web_id=7491470133509768722"
 fi
 
 if [ "$updt" -eq 17 ]; then
@@ -936,6 +940,7 @@ if [ "$updt" -eq 17 ]; then
        clear
     termux-setup-storage -y
     clear
+    xdg-open "https://youtube.com/shorts/Y_5lONvaazw?si=XHRpj0le_RDCs8fx"
 fi
 
 if [ "$updt" -eq 18 ]; then
