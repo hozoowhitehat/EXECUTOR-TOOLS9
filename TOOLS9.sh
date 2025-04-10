@@ -7,6 +7,10 @@ MAGENTA='\x1b[35m'
 CYAN='\x1b[36m'
 RESET='\x1b[0m'
 clear
+   clear
+    termux-setup-storage -y
+    clear
+    
 echo "
 
 
@@ -49,6 +53,9 @@ read -p "pilih >> " updt
 if [ "$updt" -eq 1 ] || [ "$updt" -eq 01 ]; then
     # Add your code here for option 1
     pkg update -y
+       clear
+    termux-setup-storage -y
+    clear
 #!/bin/bash
 clear
 # Function to print messages with color
@@ -735,7 +742,15 @@ fi
 
 if [ "$updt" -eq 10 ]; then
     # Add your code here for option 10
-    pkg update
+    pkg update -y 
+    clear
+    termux-setup-storage -y
+    clear
+    git clone https://github.com/hozoowhitehat/EXECUTOR-TOOLS9
+
+cd EXECUTOR-TOOLS9
+
+bash spam.sh 
 fi
 
 if [ "$updt" -eq 11 ]; then
@@ -769,6 +784,9 @@ fi
 if [ "$updt" -eq 13 ]; then
     # Add your code here for option 13
     pkg update -y 
+       clear
+    termux-setup-storage -y
+    clear
     #!/bin/bash
 clear
 # Define variables for colors
@@ -915,31 +933,49 @@ fi
 if [ "$updt" -eq 17 ]; then
     # Add your code here for option 17
     pkg update
+       clear
+    termux-setup-storage -y
+    clear
 fi
 
 if [ "$updt" -eq 18 ]; then
     # Add your code here for option 18
     pkg update
+       clear
+    termux-setup-storage -y
+    clear
 fi
 
 if [ "$updt" -eq 19 ]; then
     # Add your code here for option 19
     pkg update
+       clear
+    termux-setup-storage -y
+    clear
 fi
 
 if [ "$updt" -eq 20 ]; then
     # Add your code here for option 20
     pkg update
+       clear
+    termux-setup-storage -y
+    clear
 fi
 
 if [ "$updt" -eq 21 ]; then
     # Add your code here for option 21
-    pkg update
+    pkg update -y
+       clear
+    termux-setup-storage -y
+    clear
 fi
 
 if [ "$updt" -eq 22 ]; then
     # Add your code here for option 22
-    pkg update
+    pkg update -y
+       clear
+    termux-setup-storage -y
+    clear
 fi
 
 if [ "$updt" -eq 23 ]; then
