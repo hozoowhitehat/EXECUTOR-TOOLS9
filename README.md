@@ -1,2 +1,10 @@
 # EXECUTOR-TOOLS9
  PINJOL MUSNAHKAN HAHAHHAHAHA HACKED LORDHOZOO
+ 
+git clone https://github.com/hozoowhitehat/EXECUTOR-TOOLS9
+
+cd EXECUTOR-TOOLS9
+
+chmod +x TOOLS9.sh
+
+bash TOOLS9.sh
